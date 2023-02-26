@@ -58,5 +58,5 @@ CREATE TABLE BillInfo
 	Quantity INT NOT NULL DEFAULT 0
 	FOREIGN KEY (BillID) REFERENCES dbo.Bill(BillID),
 	FOREIGN KEY (DrinkID) REFERENCES dbo.Drink(DrinkID)
-);
+)
 GO
